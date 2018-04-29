@@ -1,3 +1,4 @@
+<H1>SPAMHINATOR</H1>
 Dieser Spamfilter wurde im Rahmen eines DHBW-Projektes, für Neue Konzepte, ein Modul des Kurses WWI15AMB entwickelt. 
 Dieser Spamfilter soll maximal im Privaten genutzt werden. 
 Verbesserungen sind möglich.
