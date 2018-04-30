@@ -30,25 +30,25 @@ Zunächst muss dafür Docker installiert werden. Sämtliche Dateien, inklusive d
 
 Anschließend wird mittels de Dockerfiles ein Dockerimage erstellt. Dazu muss zunächst das Terminal geöffnet werden, anschließend der Ordner mittels 'cd' ausgewählt werden und folgender Befehl eingegeben werden:
 
-  docker build -t <deine namensgebung>:<versionsnummer> .
+  <p align="center">docker build -t <deine namensgebung>:<versionsnummer> .<p align="center">
   
-  Bsp: docker build -t meinimage:1.0 .
+  <p align="center">Bsp: docker build -t meinimage:1.0 .<p align="center">
   
 Sollte es nicht funktionieren bitte folgenden Befehl ausführen und den oberen nochmals ausführen:
 
-  docker pull python3 (oder python)
+  <p align="center">docker pull python3 (oder python)<p align="center">
   
 Nach erfolgreichem erstellen des Images kann ein Container erstellt und zum laufen gebracht werden.
 Hierzu folgende Befehle ausführen:
 
-  docker run --name <mein toller containername> -p <>:<> <deine namensgebung>:<versionsnummer> (Vgl. oben)
+  <p align="center">docker run --name <mein toller containername> -p <>:<> <deine namensgebung>:<versionsnummer> (Vgl. oben)<p align="center">
   
-  Bsp: docker run --name containername -p 80:80 meinimage:1.0
+  <p align="center">Bsp: docker run --name containername -p 80:80 meinimage:1.0<p align="center">
 
 Um die Ausführung des Containers zu beenden kann folgender Befehl genutzt werden:
 
-  docker stop <mein toller containername>
+  <p align="center">docker stop <mein toller containername><p align="center">
   
 Und für die Löschung des Container:
 
-  docker rm <mein toller containername>
+  <p align="center">docker rm <mein toller containername><p align="center">
