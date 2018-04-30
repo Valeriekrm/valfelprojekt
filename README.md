@@ -20,3 +20,5 @@ Sollte es nicht ausführbar sein muss die Python Version überprüft werden.
 Zusätzlich wurde im Rahmen des Projektes ein Dockerfile erstellt.
 
 Zu beachten ist, dass die Sets lediglich beim erstmaligen Gebrauch genutzt werden müssen. Im Anschluss kann der Code zum initialisieren auskommentiert werden. Jedoch sollte der Code, welcher die Datei klasse.txt aufruft nicht auskommentiert werden, da andernfalls keine Spam oder Ham Einordnung stattfinden kann.
+
+<H2>Anleitung</H2>
