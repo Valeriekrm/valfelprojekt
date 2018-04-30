@@ -26,10 +26,10 @@ Zu beachten ist, dass die Sets lediglich beim erstmaligen Gebrauch genutzt werde
 Die einfachste Nutzung dieses Spamfilters ist die Ausführungs mittels eines Editors, z.B. Idle. 
 Andernfalls kann es ebenfalls durch Docker ausgeführt werden.
 
-<H3><font color="#FF0000">!BITTE BEACHTEN!</font></H3>
+<H3>!BITTE BEACHTEN!</H3>
 Sollte es mittels Docker ausgeführt werden, dann muss (im Normalfall) kein Pfad angepasst werden.
 Wird es jedoch über einen Editor genutzt lokal auf dem Rechner, dann müssen die entsprechenden Pfade in der Hauptdatei "FertigesProjektKrommMäder.py" angepasst werden.
-<H3><font color="#FF0000">!!BITTE BEACHTEN!</font></H3>
+<H3>!BITTE BEACHTEN!</H3>
 
 Zunächst muss dafür Docker installiert werden. Sämtliche Dateien, inklusive des Dockerfile sollen bitte in einen Ordner lokal heruntergeladen werden. 
 
