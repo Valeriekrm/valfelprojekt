@@ -22,3 +22,33 @@ Zusätzlich wurde im Rahmen des Projektes ein Dockerfile erstellt.
 Zu beachten ist, dass die Sets lediglich beim erstmaligen Gebrauch genutzt werden müssen. Im Anschluss kann der Code zum initialisieren auskommentiert werden. Jedoch sollte der Code, welcher die Datei klasse.txt aufruft nicht auskommentiert werden, da andernfalls keine Spam oder Ham Einordnung stattfinden kann.
 
 <H2>Anleitung</H2>
+
+Die einfachste Nutzung dieses Spamfilters ist die Ausführungs mittels eines Editors, z.B. Idle. 
+Andernfalls kann es ebenfalls durch Docker ausgeführt werden.
+
+Zunächst muss dafür Docker installiert werden. Sämtliche Dateien, inklusive des Dockerfile sollen bitte in einen Ordner lokal heruntergeladen werden. 
+
+Anschließend wird mittels de Dockerfiles ein Dockerimage erstellt. Dazu muss zunächst das Terminal geöffnet werden, anschließend der Ordner mittels 'cd' ausgewählt werden und folgender Befehl eingegeben werden:
+
+  docker build -t <deine namensgebung>:<versionsnummer> .
+  
+  Bsp: docker build -t meinimage:1.0 .
+  
+Sollte es nicht funktionieren bitte folgenden Befehl ausführen und den oberen nochmals ausführen:
+
+  docker pull python3 (oder python)
+  
+Nach erfolgreichem erstellen des Images kann ein Container erstellt und zum laufen gebracht werden.
+Hierzu folgende Befehle ausführen:
+
+  docker run --name <mein toller containername> -p <>:<> <deine namensgebung>:<versionsnummer> (Vgl. oben)
+  
+  Bsp: docker run --name containername -p 80:80 meinimage:1.0
+
+Um die Ausführung des Containers zu beenden kann folgender Befehl genutzt werden:
+
+  docker stop <mein toller containername>
+  
+Und für die Löschung des Container:
+
+  docker rm <mein toller containername>
