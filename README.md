@@ -57,3 +57,8 @@ Um die Ausführung des Containers zu beenden kann folgender Befehl genutzt werde
 Und für die Löschung des Container:
 
   <p align="center">docker rm "mein toller containername"</p align="center">
+
+
+<H3>Abschließend</H3>
+
+Python ist eine sehr eigenwillige Sprache. Um ein Python Programm, unabhängig davon wie aufwendig es ist, zum laufen zu bringen, sollte beachtet werden, dass kein Zeitdruck bestehen soll. Das Installieren entsprechender Packete, um das Programm ausführen zu können, nimmt viel Zeit in Anspruch.  
