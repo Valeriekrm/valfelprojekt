@@ -4,7 +4,7 @@ Dieser Spamfilter soll maximal im Privaten genutzt werden.
 Verbesserungen sind möglich.
 
 Die Hauptdatei ist FertigesProjektKrommMäder.py
-Der Spamfilter wurde in Python entwickelt mit dem Hintergrund dessen, dass zum einen die Wahl der Programmiersprache frei war und zum anderen nützliche Packages bereits vorhanden waren, wodurch umständliche Entwicklungen, besonders die benötigten Algorithmen betreffend, nicht notwendig waren. Weitere vorhandene Dateien sind klasse.txt, welche sogenannte classifier beinhaltet. Dieses sind einzelne Wörter welche auf Spam-Emails hinweisen. Weiterhin gibt es im MeineHam und MeineSpam Ordner entsprechende Training- und Testsets zum einspeisen des classifiers. Die Auswahl 
+Der Spamfilter wurde in Python entwickelt mit dem Hintergrund dessen, dass zum einen die Wahl der Programmiersprache frei war und zum anderen nützliche Packages bereits vorhanden waren, wodurch umständliche Entwicklungen, besonders die benötigten Algorithmen betreffend, nicht notwendig waren. Weitere vorhandene Dateien sind klasse.txt, welche sogenannte classifier beinhaltet. Dieses sind einzelne Wörter welche auf Spam-Emails hinweisen. Weiterhin gibt es im MeineHam und MeineSpam Ordner entsprechende Training- und Testsets zum einspeisen des classifiers.  
 
 Der angesprochene Algorithmus ist der NaiveBayes Algorithmus. Dieser ordnet, zumindest in Bezug auf Emails die ausgewählten Mails anhand der Trefferzahlen (Statistiken) in Ham (Kein Spam) oder Spam. 
 
