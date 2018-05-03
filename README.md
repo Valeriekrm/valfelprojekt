@@ -4,12 +4,12 @@ Dieser Spamfilter soll maximal im Privaten genutzt werden.
 Verbesserungen sind möglich.
 
 Die Hauptdatei ist FertigesProjektKrommMäder.py
-Der Spamfilter wurde in Python entwickelt mit dem Hintergrund dessen, dass zum einen die Wahl der Programmiersprache frei war und zum anderen nützliche Packages bereits vorhanden waren, wodurch umständliche Entwicklungen, besonders die benötigten Algorithmen betreffend, nicht notwendig waren. Weitere vorhandene Dateien sind klasse.txt, welche sogenannte classifier beinhaltet. Dieses sind einzelne Wörter welche auf Spam-Emails hinweisen. Weiterhin gibt es im MeineHam und MeineSpam Ordner entsprechende Training- und Testsets zum einspeisen des classifiers.  
+Der Spamfilter wurde in Python entwickelt mit dem Hintergrund dessen, dass zum einen die Wahl der Programmiersprache frei war und zum anderen nützliche Packages bereits vorhanden waren, wodurch umständliche Entwicklungen, besonders die benötigten Algorithmen betreffend, nicht notwendig waren. Weitere vorhandene Dateien sind klasse.txt, welche sogenannte "classifier" beinhaltet. Dieses sind einzelne Wörter, welche auf Spam-Emails hinweisen. Weiterhin gibt es im MeineHam und MeineSpam Ordner entsprechende Training- und Testsets zum Einspeisen des classifiers.  
 
-Der angesprochene Algorithmus ist der NaiveBayes Algorithmus. Dieser ordnet, zumindest in Bezug auf Emails die ausgewählten Mails anhand der Trefferzahlen (Statistiken) in Ham (Kein Spam) oder Spam. 
+Der angesprochene Algorithmus ist der NaiveBayes Algorithmus. Dieser ordnet, zumindest in Bezug auf Emails, die ausgewählten Mails anhand der Trefferzahlen (Statistiken) in Ham (Kein Spam) oder Spam. 
 
-Zur Nutzung dieses Codes müssen zuvor einige Anpassungen am Code erfolgen. Besonders die Pfade müssen angepasst werden. Um den Spamfilter individueller zu gestalten können die genutzten Testsets um eigene Mails erweitert werden. Diese sollten das Dateiformat .txt oder .rtf benutzen. Andere Formate könnten eventuell nicht erkannt werden.
-Weiterhin kann durch den Originalcode nur Gmail verwendet werden. Die API wurde nicht eingebunden, da sie äußerst viele Fehlermeldungen, welche nicht auf Dauer behoben werden konnte ausgeworfen hat. Die hier genutzte Lösung ist für den Privatzweck jedoch mehr als ausreichend. 
+Zur Nutzung dieses Codes müssen zuvor einige Anpassungen am Code erfolgen. Besonders die Pfade müssen angepasst werden. Um den Spamfilter individueller zu gestalten, können die genutzten Testsets um eigene Mails erweitert werden. Diese sollten das Dateiformat .txt oder .rtf benutzen. Andere Formate könnten eventuell nicht erkannt werden.
+Weiterhin kann durch den Originalcode nur Gmail verwendet werden. Die API wurde nicht eingebunden, da sie äußerst viele Fehlermeldungen, welche nicht auf Dauer behoben werden konnte, ausgeworfen hat. Die hier genutzte Lösung ist für den Privatzweck jedoch mehr als ausreichend. 
 
 Um den Spamfilter erfolgreich nutzen zu können muss Python 3 installiert werden. Ebenso ein Editor für Python da die Datei bearbeitet werden muss. Zu empfehlen ist Idle. Falls bereits Python installiert ist sollte ein Upgrade durchgeführt werden.
 
@@ -33,7 +33,7 @@ Wird es jedoch über einen Editor genutzt lokal auf dem Rechner, dann müssen di
 
 Zunächst muss dafür Docker installiert werden. Sämtliche Dateien, inklusive des Dockerfile sollen bitte in einen Ordner lokal heruntergeladen werden. 
 
-Anschließend wird mittels de Dockerfiles ein Dockerimage erstellt. Dazu muss zunächst das Terminal geöffnet werden, anschließend der Ordner mittels 'cd' ausgewählt werden und folgender Befehl eingegeben werden:
+Anschließend wird mittels des Dockerfiles ein Dockerimage erstellt. Dazu muss zunächst das Terminal geöffnet werden, anschließend der Ordner mittels 'cd' ausgewählt werden und folgender Befehl eingegeben werden:
 
   <p align="center">docker build -t "deine namensgebung":"versionsnummer" .<p align="center">
   
@@ -61,4 +61,4 @@ Und für die Löschung des Container:
 
 <H3>Abschließend</H3>
 
-Python ist eine sehr eigenwillige Sprache. Um ein Python Programm, unabhängig davon wie aufwendig es ist, zum laufen zu bringen, sollte beachtet werden, dass kein Zeitdruck bestehen soll. Das Installieren entsprechender Packete, um das Programm ausführen zu können, nimmt viel Zeit in Anspruch.  
+Python ist eine sehr eigenwillige Sprache. Um ein Python Programm, unabhängig davon wie aufwendig es ist, zum Laufen zu bringen, sollte beachtet werden, dass kein Zeitdruck bestehen soll. Das Installieren entsprechender Packete, um das Programm ausführen zu können, nimmt viel Zeit in Anspruch.  
