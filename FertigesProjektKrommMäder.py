@@ -70,7 +70,7 @@ def leistung(trainingset, testset, classifier):
 
     
     # Die ersten 20 wichtigsten Wörter für den Classifier testen
-    classifier.show_most_informative_features(46)
+    classifier.show_most_informative_features(20)
 
 def read_email_from_gmail():
     try:
