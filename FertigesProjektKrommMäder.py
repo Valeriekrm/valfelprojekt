@@ -105,6 +105,8 @@ def read_email_from_gmail():
             
             print (kleister)
             print (str(classifier.classify (kleister)))
+            print('\n')
+            print('\n')
         pw = 0
         FROM_PWD = 0
     except Exception as e:
